@@ -29,7 +29,7 @@ if st.button("🚀 Tự Động Tạo Kịch Bản & Video"):
         os.makedirs("temp", exist_ok=True)
         
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-2.5-flash')
+        model = genai.GenerativeModel('gemini-3.6-flash')
         
         first_img = Image.open(uploaded_images[0])
         
