@@ -1,5 +1,6 @@
 streamlit
-moviepy
-pillow
+moviepy==1.0.3
+Pillow
 gTTS
 google-generativeai
+decorator<5.0.0
